@@ -17,3 +17,7 @@ The test generates a number of integers in the range specified, using the `randi
 3. In terminal, navigate into repo.
 4. Type `python3 randomTest.py` in terminal.
 5. Enter range and sample size.
+
+
+### So is it skewed?
+Probably not, it doesn't seem like it. Idk, I'm no mathematician.
