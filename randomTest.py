@@ -2,21 +2,21 @@
 
 import random
 
-## -----------------These two functions are obsolete -------------##
-#Creates a list that stores the range of numbers to be tested
-def createList(length):
-    intList = []
-    for i in range(int(length)):
-        intList.append(i)
-        intList.append(0)
-    return intList
+# # -----------------These two functions are obsolete -------------##
+# Creates a list that stores the range of numbers to be tested
+# def createList(length):
+#     intList = []
+#     for i in range(int(length)):
+#         intList.append(i)
+#         intList.append(0)
+#     return intList
 
-#Converts the list to a dictionary
-def convert(list):
-    resDict = {list[i]: list[i+1] for i in range(0, len(list), 2)}
-    return resDict
+# #Converts the list to a dictionary
+# def convert(list):
+#     resDict = {list[i]: list[i+1] for i in range(0, len(list), 2)}
+#     return resDict
 
-## --------------------------------------------------------------##
+# # --------------------------------------------------------------##
 
 #Creates a list of random numbers of the size and in the range specified by the user.
 def genRandom(rangeMax, sampleSize):
