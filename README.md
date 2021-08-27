@@ -10,3 +10,10 @@ When run, the test take two input values:
     The more the merrier.
 
 The test generates a number of integers in the range specified, using the `randint()` method. It then counts the number of occurences of each integer and finally displays the results together with a graphical representation of each integer.
+
+## To run:
+1. Make sure you have Python installed.
+2. Download file.
+3. In terminal, navigate into repo.
+4. Type `python3 randomTest.py` in terminal.
+5. Enter range and sample size.
